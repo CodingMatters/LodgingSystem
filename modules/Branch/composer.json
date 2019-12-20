@@ -1,0 +1,25 @@
+{
+    "name": "codingmatters/branch",
+    "description": "",
+    "authors": [
+        {
+            "name": "Coding Matters Software Technology Services",
+            "email": "support@codingmatters.today"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CodingMatters\\Branch\\Providers\\BranchServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "CodingMatters\\Branch\\": ""
+        }
+    }
+}
